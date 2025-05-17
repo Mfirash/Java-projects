@@ -23,7 +23,7 @@ class Main {
         
         frame.getContentPane().add(panel);
         frame.setVisible(true);
-        textField.addActionListener(new ActionListener() {
+        button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -43,12 +43,12 @@ class Main {
                 
             }
             
-        }); // this sec is AI-generated
+        }); // this sec is ai generated
 
         textField.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                button.doClick(); // Simulates a button click when Enter is pressed in a text field.
+                button.doClick(); 
             }
         });
 
